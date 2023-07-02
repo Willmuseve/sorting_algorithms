@@ -1,10 +1,9 @@
 #include "sort.h"
 #include <stdlib.h>
 /**
-  * shell_sort - A function which sorts an array usin shell algorithm.
-  * @array: array to sort.
-  * @size: length of the array.
-  * Return: Nothing.
+  * swap_ints - A function which sorts an array usin shell algorithm.
+  * @a: integer
+  * @b: seconf integer
   */
 void swap_ints(int *a, int *b)
 {
